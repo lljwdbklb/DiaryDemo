@@ -19,6 +19,7 @@
     NSMutableArray * _dataList;
     NSMutableArray * _searchResults;
 }
+@property (weak, nonatomic) IBOutlet UISearchBar *searchBar;
 
 @end
 
@@ -27,7 +28,9 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    
+    self.title = @"记事本";
+    //用于隐藏searchBar
+    self.tableView.contentOffset = CGPointMake(0, CGRectGetMaxY(_searchBar.frame));
 }
 
 - (void)viewDidAppear:(BOOL)animated {

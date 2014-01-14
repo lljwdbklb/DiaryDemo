@@ -27,11 +27,13 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    self.title = @"新建记事";
     
     _textView.font = [UIFont systemFontOfSize:15];
     _textView.placeholder = @"分享新鲜事";
     
-    if (_article) {
+    if (_article) {//是更新
+        self.title = @"修改记事";
         _textView.text = _article.text;
     }
     
