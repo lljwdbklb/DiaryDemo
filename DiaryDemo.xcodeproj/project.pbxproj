@@ -11,17 +11,27 @@
 		BFBE4DAA1884FE3800BF20A8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFBE4DA91884FE3800BF20A8 /* CoreGraphics.framework */; };
 		BFBE4DAC1884FE3800BF20A8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFBE4DAB1884FE3800BF20A8 /* UIKit.framework */; };
 		BFBE4DB21884FE3800BF20A8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BFBE4DB01884FE3800BF20A8 /* InfoPlist.strings */; };
-		BFBE4DB41884FE3800BF20A8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BFBE4DB31884FE3800BF20A8 /* main.m */; };
-		BFBE4DB81884FE3800BF20A8 /* LJJAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BFBE4DB71884FE3800BF20A8 /* LJJAppDelegate.m */; };
 		BFBE4DBB1884FE3800BF20A8 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFBE4DB91884FE3800BF20A8 /* Main_iPhone.storyboard */; };
-		BFBE4DBE1884FE3800BF20A8 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFBE4DBC1884FE3800BF20A8 /* Main_iPad.storyboard */; };
-		BFBE4DC11884FE3800BF20A8 /* LJJViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFBE4DC01884FE3800BF20A8 /* LJJViewController.m */; };
 		BFBE4DC31884FE3800BF20A8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFBE4DC21884FE3800BF20A8 /* Images.xcassets */; };
 		BFBE4DCA1884FE3900BF20A8 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFBE4DC91884FE3900BF20A8 /* XCTest.framework */; };
 		BFBE4DCB1884FE3900BF20A8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFBE4DA71884FE3800BF20A8 /* Foundation.framework */; };
 		BFBE4DCC1884FE3900BF20A8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFBE4DAB1884FE3800BF20A8 /* UIKit.framework */; };
 		BFBE4DD41884FE3900BF20A8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BFBE4DD21884FE3900BF20A8 /* InfoPlist.strings */; };
 		BFBE4DD61884FE3900BF20A8 /* DiaryDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BFBE4DD51884FE3900BF20A8 /* DiaryDemoTests.m */; };
+		BFBE4E091884FFCA00BF20A8 /* LJSQLite+Where.m in Sources */ = {isa = PBXBuildFile; fileRef = BFBE4DFA1884FFCA00BF20A8 /* LJSQLite+Where.m */; };
+		BFBE4E0A1884FFCA00BF20A8 /* LJSQLite.m in Sources */ = {isa = PBXBuildFile; fileRef = BFBE4DFC1884FFCA00BF20A8 /* LJSQLite.m */; };
+		BFBE4E0B1884FFCA00BF20A8 /* NSDictionary+SQLite.m in Sources */ = {isa = PBXBuildFile; fileRef = BFBE4DFF1884FFCA00BF20A8 /* NSDictionary+SQLite.m */; };
+		BFBE4E0C1884FFCA00BF20A8 /* NSObject+LJSQLite.m in Sources */ = {isa = PBXBuildFile; fileRef = BFBE4E011884FFCA00BF20A8 /* NSObject+LJSQLite.m */; };
+		BFBE4E0D1884FFCA00BF20A8 /* NSString+LJSQLite.m in Sources */ = {isa = PBXBuildFile; fileRef = BFBE4E031884FFCA00BF20A8 /* NSString+LJSQLite.m */; };
+		BFBE4E0E1884FFCA00BF20A8 /* LJJAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BFBE4E061884FFCA00BF20A8 /* LJJAppDelegate.m */; };
+		BFBE4E0F1884FFCA00BF20A8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BFBE4E071884FFCA00BF20A8 /* main.m */; };
+		BFBE4E111885002300BF20A8 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BFBE4E101885002300BF20A8 /* libsqlite3.dylib */; };
+		BFBE4E17188500A100BF20A8 /* LJJViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFBE4E14188500A100BF20A8 /* LJJViewController.m */; };
+		BFBE4E1A188500E500BF20A8 /* LJJArticle.m in Sources */ = {isa = PBXBuildFile; fileRef = BFBE4E19188500E500BF20A8 /* LJJArticle.m */; };
+		BFBE4E1D18850E4800BF20A8 /* LJJTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = BFBE4E1C18850E4800BF20A8 /* LJJTextView.m */; };
+		BFBE4E201885104700BF20A8 /* LJJEditorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFBE4E1F1885104700BF20A8 /* LJJEditorViewController.m */; };
+		BFBE4E241885315C00BF20A8 /* NSDate+String.m in Sources */ = {isa = PBXBuildFile; fileRef = BFBE4E231885315C00BF20A8 /* NSDate+String.m */; };
+		BFBE4E2A188536E800BF20A8 /* NSString+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = BFBE4E29188536E800BF20A8 /* NSString+Helper.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,20 +51,42 @@
 		BFBE4DAB1884FE3800BF20A8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		BFBE4DAF1884FE3800BF20A8 /* DiaryDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DiaryDemo-Info.plist"; sourceTree = "<group>"; };
 		BFBE4DB11884FE3800BF20A8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		BFBE4DB31884FE3800BF20A8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		BFBE4DB51884FE3800BF20A8 /* DiaryDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DiaryDemo-Prefix.pch"; sourceTree = "<group>"; };
-		BFBE4DB61884FE3800BF20A8 /* LJJAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LJJAppDelegate.h; sourceTree = "<group>"; };
-		BFBE4DB71884FE3800BF20A8 /* LJJAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LJJAppDelegate.m; sourceTree = "<group>"; };
 		BFBE4DBA1884FE3800BF20A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
-		BFBE4DBD1884FE3800BF20A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
-		BFBE4DBF1884FE3800BF20A8 /* LJJViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LJJViewController.h; sourceTree = "<group>"; };
-		BFBE4DC01884FE3800BF20A8 /* LJJViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LJJViewController.m; sourceTree = "<group>"; };
 		BFBE4DC21884FE3800BF20A8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		BFBE4DC81884FE3900BF20A8 /* DiaryDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DiaryDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFBE4DC91884FE3900BF20A8 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		BFBE4DD11884FE3900BF20A8 /* DiaryDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DiaryDemoTests-Info.plist"; sourceTree = "<group>"; };
 		BFBE4DD31884FE3900BF20A8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BFBE4DD51884FE3900BF20A8 /* DiaryDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DiaryDemoTests.m; sourceTree = "<group>"; };
+		BFBE4DF61884FFCA00BF20A8 /* DiaryDemo-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DiaryDemo-Prefix.pch"; sourceTree = "<group>"; };
+		BFBE4DF91884FFCA00BF20A8 /* LJSQLite+Where.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LJSQLite+Where.h"; sourceTree = "<group>"; };
+		BFBE4DFA1884FFCA00BF20A8 /* LJSQLite+Where.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "LJSQLite+Where.m"; sourceTree = "<group>"; };
+		BFBE4DFB1884FFCA00BF20A8 /* LJSQLite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJSQLite.h; sourceTree = "<group>"; };
+		BFBE4DFC1884FFCA00BF20A8 /* LJSQLite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJSQLite.m; sourceTree = "<group>"; };
+		BFBE4DFD1884FFCA00BF20A8 /* LJSQLiteConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJSQLiteConnection.h; sourceTree = "<group>"; };
+		BFBE4DFE1884FFCA00BF20A8 /* NSDictionary+SQLite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+SQLite.h"; sourceTree = "<group>"; };
+		BFBE4DFF1884FFCA00BF20A8 /* NSDictionary+SQLite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+SQLite.m"; sourceTree = "<group>"; };
+		BFBE4E001884FFCA00BF20A8 /* NSObject+LJSQLite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+LJSQLite.h"; sourceTree = "<group>"; };
+		BFBE4E011884FFCA00BF20A8 /* NSObject+LJSQLite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+LJSQLite.m"; sourceTree = "<group>"; };
+		BFBE4E021884FFCA00BF20A8 /* NSString+LJSQLite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+LJSQLite.h"; sourceTree = "<group>"; };
+		BFBE4E031884FFCA00BF20A8 /* NSString+LJSQLite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+LJSQLite.m"; sourceTree = "<group>"; };
+		BFBE4E041884FFCA00BF20A8 /* Simple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Simple.h; sourceTree = "<group>"; };
+		BFBE4E051884FFCA00BF20A8 /* LJJAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJJAppDelegate.h; sourceTree = "<group>"; };
+		BFBE4E061884FFCA00BF20A8 /* LJJAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJJAppDelegate.m; sourceTree = "<group>"; };
+		BFBE4E071884FFCA00BF20A8 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BFBE4E101885002300BF20A8 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		BFBE4E13188500A100BF20A8 /* LJJViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJJViewController.h; sourceTree = "<group>"; };
+		BFBE4E14188500A100BF20A8 /* LJJViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJJViewController.m; sourceTree = "<group>"; };
+		BFBE4E18188500E500BF20A8 /* LJJArticle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJJArticle.h; sourceTree = "<group>"; };
+		BFBE4E19188500E500BF20A8 /* LJJArticle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJJArticle.m; sourceTree = "<group>"; };
+		BFBE4E1B18850E4800BF20A8 /* LJJTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJJTextView.h; sourceTree = "<group>"; };
+		BFBE4E1C18850E4800BF20A8 /* LJJTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJJTextView.m; sourceTree = "<group>"; };
+		BFBE4E1E1885104700BF20A8 /* LJJEditorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJJEditorViewController.h; sourceTree = "<group>"; };
+		BFBE4E1F1885104700BF20A8 /* LJJEditorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJJEditorViewController.m; sourceTree = "<group>"; };
+		BFBE4E221885315C00BF20A8 /* NSDate+String.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+String.h"; sourceTree = "<group>"; };
+		BFBE4E231885315C00BF20A8 /* NSDate+String.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+String.m"; sourceTree = "<group>"; };
+		BFBE4E28188536E800BF20A8 /* NSString+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Helper.h"; sourceTree = "<group>"; };
+		BFBE4E29188536E800BF20A8 /* NSString+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Helper.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFBE4E111885002300BF20A8 /* libsqlite3.dylib in Frameworks */,
 				BFBE4DAA1884FE3800BF20A8 /* CoreGraphics.framework in Frameworks */,
 				BFBE4DAC1884FE3800BF20A8 /* UIKit.framework in Frameworks */,
 				BFBE4DA81884FE3800BF20A8 /* Foundation.framework in Frameworks */,
@@ -103,6 +136,7 @@
 		BFBE4DA61884FE3800BF20A8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				BFBE4E101885002300BF20A8 /* libsqlite3.dylib */,
 				BFBE4DA71884FE3800BF20A8 /* Foundation.framework */,
 				BFBE4DA91884FE3800BF20A8 /* CoreGraphics.framework */,
 				BFBE4DAB1884FE3800BF20A8 /* UIKit.framework */,
@@ -114,13 +148,7 @@
 		BFBE4DAD1884FE3800BF20A8 /* DiaryDemo */ = {
 			isa = PBXGroup;
 			children = (
-				BFBE4DB61884FE3800BF20A8 /* LJJAppDelegate.h */,
-				BFBE4DB71884FE3800BF20A8 /* LJJAppDelegate.m */,
-				BFBE4DB91884FE3800BF20A8 /* Main_iPhone.storyboard */,
-				BFBE4DBC1884FE3800BF20A8 /* Main_iPad.storyboard */,
-				BFBE4DBF1884FE3800BF20A8 /* LJJViewController.h */,
-				BFBE4DC01884FE3800BF20A8 /* LJJViewController.m */,
-				BFBE4DC21884FE3800BF20A8 /* Images.xcassets */,
+				BFBE4DF11884FFCA00BF20A8 /* Classes */,
 				BFBE4DAE1884FE3800BF20A8 /* Supporting Files */,
 			);
 			path = DiaryDemo;
@@ -129,10 +157,10 @@
 		BFBE4DAE1884FE3800BF20A8 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				BFBE4DB91884FE3800BF20A8 /* Main_iPhone.storyboard */,
+				BFBE4DC21884FE3800BF20A8 /* Images.xcassets */,
 				BFBE4DAF1884FE3800BF20A8 /* DiaryDemo-Info.plist */,
 				BFBE4DB01884FE3800BF20A8 /* InfoPlist.strings */,
-				BFBE4DB31884FE3800BF20A8 /* main.m */,
-				BFBE4DB51884FE3800BF20A8 /* DiaryDemo-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -153,6 +181,105 @@
 				BFBE4DD21884FE3900BF20A8 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BFBE4DF11884FFCA00BF20A8 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				BFBE4DF21884FFCA00BF20A8 /* Main */,
+				BFBE4DF51884FFCA00BF20A8 /* Other */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		BFBE4DF21884FFCA00BF20A8 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				BFBE4E211885314900BF20A8 /* Tool */,
+				BFBE4E12188500A100BF20A8 /* Controller */,
+				BFBE4E15188500A100BF20A8 /* Model */,
+				BFBE4E16188500A100BF20A8 /* View */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		BFBE4DF51884FFCA00BF20A8 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				BFBE4DF71884FFCA00BF20A8 /* Lib */,
+				BFBE4E051884FFCA00BF20A8 /* LJJAppDelegate.h */,
+				BFBE4E061884FFCA00BF20A8 /* LJJAppDelegate.m */,
+				BFBE4DF61884FFCA00BF20A8 /* DiaryDemo-Prefix.pch */,
+				BFBE4E071884FFCA00BF20A8 /* main.m */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		BFBE4DF71884FFCA00BF20A8 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				BFBE4DF81884FFCA00BF20A8 /* SQLite */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		BFBE4DF81884FFCA00BF20A8 /* SQLite */ = {
+			isa = PBXGroup;
+			children = (
+				BFBE4DF91884FFCA00BF20A8 /* LJSQLite+Where.h */,
+				BFBE4DFA1884FFCA00BF20A8 /* LJSQLite+Where.m */,
+				BFBE4DFB1884FFCA00BF20A8 /* LJSQLite.h */,
+				BFBE4DFC1884FFCA00BF20A8 /* LJSQLite.m */,
+				BFBE4DFD1884FFCA00BF20A8 /* LJSQLiteConnection.h */,
+				BFBE4DFE1884FFCA00BF20A8 /* NSDictionary+SQLite.h */,
+				BFBE4DFF1884FFCA00BF20A8 /* NSDictionary+SQLite.m */,
+				BFBE4E001884FFCA00BF20A8 /* NSObject+LJSQLite.h */,
+				BFBE4E011884FFCA00BF20A8 /* NSObject+LJSQLite.m */,
+				BFBE4E021884FFCA00BF20A8 /* NSString+LJSQLite.h */,
+				BFBE4E031884FFCA00BF20A8 /* NSString+LJSQLite.m */,
+				BFBE4E041884FFCA00BF20A8 /* Simple.h */,
+			);
+			path = SQLite;
+			sourceTree = "<group>";
+		};
+		BFBE4E12188500A100BF20A8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BFBE4E13188500A100BF20A8 /* LJJViewController.h */,
+				BFBE4E14188500A100BF20A8 /* LJJViewController.m */,
+				BFBE4E1E1885104700BF20A8 /* LJJEditorViewController.h */,
+				BFBE4E1F1885104700BF20A8 /* LJJEditorViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BFBE4E15188500A100BF20A8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BFBE4E18188500E500BF20A8 /* LJJArticle.h */,
+				BFBE4E19188500E500BF20A8 /* LJJArticle.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BFBE4E16188500A100BF20A8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BFBE4E1B18850E4800BF20A8 /* LJJTextView.h */,
+				BFBE4E1C18850E4800BF20A8 /* LJJTextView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BFBE4E211885314900BF20A8 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				BFBE4E28188536E800BF20A8 /* NSString+Helper.h */,
+				BFBE4E29188536E800BF20A8 /* NSString+Helper.m */,
+				BFBE4E221885315C00BF20A8 /* NSDate+String.h */,
+				BFBE4E231885315C00BF20A8 /* NSDate+String.m */,
+			);
+			path = Tool;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,7 +359,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BFBE4DBE1884FE3800BF20A8 /* Main_iPad.storyboard in Resources */,
 				BFBE4DC31884FE3800BF20A8 /* Images.xcassets in Resources */,
 				BFBE4DBB1884FE3800BF20A8 /* Main_iPhone.storyboard in Resources */,
 				BFBE4DB21884FE3800BF20A8 /* InfoPlist.strings in Resources */,
@@ -254,9 +380,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BFBE4DB41884FE3800BF20A8 /* main.m in Sources */,
-				BFBE4DB81884FE3800BF20A8 /* LJJAppDelegate.m in Sources */,
-				BFBE4DC11884FE3800BF20A8 /* LJJViewController.m in Sources */,
+				BFBE4E0C1884FFCA00BF20A8 /* NSObject+LJSQLite.m in Sources */,
+				BFBE4E0A1884FFCA00BF20A8 /* LJSQLite.m in Sources */,
+				BFBE4E17188500A100BF20A8 /* LJJViewController.m in Sources */,
+				BFBE4E241885315C00BF20A8 /* NSDate+String.m in Sources */,
+				BFBE4E0D1884FFCA00BF20A8 /* NSString+LJSQLite.m in Sources */,
+				BFBE4E0B1884FFCA00BF20A8 /* NSDictionary+SQLite.m in Sources */,
+				BFBE4E091884FFCA00BF20A8 /* LJSQLite+Where.m in Sources */,
+				BFBE4E0F1884FFCA00BF20A8 /* main.m in Sources */,
+				BFBE4E1A188500E500BF20A8 /* LJJArticle.m in Sources */,
+				BFBE4E201885104700BF20A8 /* LJJEditorViewController.m in Sources */,
+				BFBE4E1D18850E4800BF20A8 /* LJJTextView.m in Sources */,
+				BFBE4E2A188536E800BF20A8 /* NSString+Helper.m in Sources */,
+				BFBE4E0E1884FFCA00BF20A8 /* LJJAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,14 +429,6 @@
 				BFBE4DBA1884FE3800BF20A8 /* Base */,
 			);
 			name = Main_iPhone.storyboard;
-			sourceTree = "<group>";
-		};
-		BFBE4DBC1884FE3800BF20A8 /* Main_iPad.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BFBE4DBD1884FE3800BF20A8 /* Base */,
-			);
-			name = Main_iPad.storyboard;
 			sourceTree = "<group>";
 		};
 		BFBE4DD21884FE3900BF20A8 /* InfoPlist.strings */ = {
@@ -394,9 +522,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "DiaryDemo/DiaryDemo-Prefix.pch";
+				GCC_PREFIX_HEADER = "DiaryDemo/Classes/Other/DiaryDemo-Prefix.pch";
 				INFOPLIST_FILE = "DiaryDemo/DiaryDemo-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -407,9 +536,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "DiaryDemo/DiaryDemo-Prefix.pch";
+				GCC_PREFIX_HEADER = "DiaryDemo/Classes/Other/DiaryDemo-Prefix.pch";
 				INFOPLIST_FILE = "DiaryDemo/DiaryDemo-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
