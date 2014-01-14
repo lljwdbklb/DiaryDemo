@@ -43,7 +43,6 @@
 
 #pragma mark 键盘变化通知
 - (void)keyboardChangeFrame:(NSNotification *)notification  {
-    NSLog(@"%@",notification.userInfo);
     CGRect frame = [notification.userInfo[UIKeyboardFrameEndUserInfoKey] CGRectValue];
     if (frame.origin.y >= self.view.frame.size.height) {
         _bottom.constant = 0.0;

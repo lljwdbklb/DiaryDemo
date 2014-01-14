@@ -576,6 +576,7 @@ _shared_implement(LJSQLite)
     if (count) {
         *count = result.count;
     }
+    LJLog(@"%@",sql);
     return result;
 }
 /**
