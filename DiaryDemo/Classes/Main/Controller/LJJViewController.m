@@ -29,13 +29,17 @@
 {
     [super viewDidLoad];
     self.title = @"记事本";
+    
     //用于隐藏searchBar
     self.tableView.contentOffset = CGPointMake(0, CGRectGetMaxY(_searchBar.frame));
 }
 
 - (void)viewDidAppear:(BOOL)animated {
     [super viewDidAppear:animated];
-    
+    [self loadRootData];
+}
+
+- (void)loadRootData {
     _dataList = [NSMutableArray arrayWithArray:[[LJSQLite sharedLJSQLite]objectsWithObjClass:[LJJArticle class] whereParams:nil orderBy:@{@"create_time":kOrderByDESC} limit:NSMakeRange(0, 0) count:nil]];
     [self.tableView reloadData];
 }
@@ -48,7 +52,9 @@
     _searchResults = [NSMutableArray arrayWithArray:[[LJSQLite sharedLJSQLite] objectsWithObjClass:[LJJArticle class] whereStr:whereStr orderBy:@{@"create_time":kOrderByDESC} limit:NSMakeRange(0, 0) count:nil]];
     [self.searchDisplayController.searchResultsTableView reloadData];
 }
-
+- (void)searchDisplayControllerWillEndSearch:(UISearchDisplayController *)controller {
+    [self loadRootData];
+}
 #pragma mark - tableview数据源
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
     if ([tableView isEqual:self.searchDisplayController.searchResultsTableView]) {//搜索tableview
@@ -81,11 +87,17 @@
     return YES;
 }
 - (void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath {
-    if (UITableViewCellEditingStyleDelete == editingStyle && ![tableView isEqual:self.searchDisplayController.searchResultsTableView]) {
+    if (UITableViewCellEditingStyleDelete == editingStyle) {
 //        NSLog(@"删除");
-        LJJArticle * a = _dataList[indexPath.row];
-        [[LJSQLite sharedLJSQLite] deleteObject:a];
-        [_dataList removeObject:a];
+        LJJArticle * article = nil;
+        if ([tableView isEqual:self.searchDisplayController.searchResultsTableView]) {//搜索tableview
+            article = _searchResults[indexPath.row];
+            [_searchResults removeObject:article];
+        } else {
+            article = _dataList[indexPath.row];
+            [_dataList removeObject:article];
+        }
+        [[LJSQLite sharedLJSQLite] deleteObject:article];
         [tableView deleteRowsAtIndexPaths:@[indexPath] withRowAnimation:UITableViewRowAnimationLeft];
     }
 }
